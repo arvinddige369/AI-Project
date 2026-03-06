@@ -56,19 +56,19 @@ export default function Home() {
 
     <div className="bg-white shadow-lg rounded-lg max-w-2xl w-full p-8">
 
-      <h1 className="text-3xl font-bold text-center mb-6">
+      <h1 className="text-3xl text-black font-bold text-center mb-6">
         AI Resume Analyzer
       </h1>
 
       <textarea
         placeholder="Paste Resume"
-        className="border border-gray-300 rounded-md w-full p-4 mb-4 h-44 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="border border-gray-300 text-black rounded-md w-full p-4 mb-4 h-44 focus:outline-none focus:ring-2 focus:ring-blue-500"
         onChange={(e) => setResume(e.target.value)}
       />
 
       <textarea
         placeholder="Paste Job Description"
-        className="border border-gray-300 rounded-md w-full p-4 mb-4 h-44 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="border border-gray-300 text-black rounded-md w-full p-4 mb-4 h-44 focus:outline-none focus:ring-2 focus:ring-blue-500"
         onChange={(e) => setJob(e.target.value)}
       />
 
