@@ -1,5 +1,16 @@
-# Object file
-*.o
+```gitignore
+# dependencies
+node_modules
 
-# Ada Library Information
-*.ali
+# build files
+.next
+
+# environment variables
+.env
+.env.local
+
+# logs
+npm-debug.log
+
+# system files
+.DS_Store
